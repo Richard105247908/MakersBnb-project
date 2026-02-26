@@ -1,0 +1,1 @@
+        DatabaseConnection.connect("jdbc:postgresql://localhost:5432/makersbnb", "postgres", "yourpassword");
