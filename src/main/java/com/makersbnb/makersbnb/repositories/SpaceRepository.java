@@ -4,6 +4,7 @@ package com.makersbnb.makersbnb.repositories;
 import com.makersbnb.makersbnb.DatabaseConnection;
 import com.makersbnb.makersbnb.models.Space;
 
+import java.sql.Date;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -38,6 +39,15 @@ public class SpaceRepository {
 
             return spaceList;
         }
+    }
+
+    public void save(Space space) throws SQLException{
+        DatabaseConnection.connect();
+
+        try(){
+            
+        }
+
     }
 }
 
