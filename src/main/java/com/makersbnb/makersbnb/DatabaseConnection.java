@@ -6,8 +6,13 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
 
-    public static Connection connect(String databaseURL, String username, String password) throws SQLException {
+    public static Connection connect() throws SQLException {
         PGSimpleDataSource ds = new PGSimpleDataSource();
+
+        String databaseURL="jdbc:postgresql://localhost:5432/makersbnb";
+        String username="postgres";
+        String password="******";
+
 
         // You can set properties individually...
         ds.setUrl(databaseURL);
