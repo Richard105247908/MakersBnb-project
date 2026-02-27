@@ -12,11 +12,10 @@ public class Space {
     private Integer ownerId;
 
 
-    public Space(Integer id, Integer owner_id,
-                 LocalDate available_to,
-                 LocalDate available_from,
-                 Double price_per_night,
-                 String description, String name) {
+    public Space(Integer id,String name,String description,
+                 Double price_per_night,LocalDate available_from,
+                 LocalDate available_to,  Integer owner_id
+                 ) {
 
         this.id = id;
         this.ownerId = owner_id;
