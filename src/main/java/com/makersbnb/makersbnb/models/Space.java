@@ -13,15 +13,15 @@ public class Space {
 
 
     public Space(Integer id,String name,String description,
-                 Double price_per_night,LocalDate available_from,
-                 LocalDate available_to,  Integer owner_id
+                 Double pricePerNight,LocalDate availableFrom,
+                 LocalDate availableTo,  Integer ownerId
                  ) {
 
         this.id = id;
-        this.ownerId = owner_id;
-        this.availableTo = available_to;
-        this.availableFrom = available_from;
-        this.pricePerNight = price_per_night;
+        this.ownerId = ownerId;
+        this.availableTo = availableTo;
+        this.availableFrom = availableFrom;
+        this.pricePerNight = pricePerNight;
         this.description = description;
         this.name = name;
     }

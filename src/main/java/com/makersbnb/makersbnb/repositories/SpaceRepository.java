@@ -31,7 +31,7 @@ public class SpaceRepository {
                                 queryResultSet.getString("description"),
                                 queryResultSet.getDouble("price_per_night"),
                                 queryResultSet.getDate("available_from").toLocalDate(),
-                                (LocalDate) queryResultSet.getObject("available_to"),
+                                queryResultSet.getDate("available_to").toLocalDate(),
                                 queryResultSet.getInt("owner_id")));
             }
 
