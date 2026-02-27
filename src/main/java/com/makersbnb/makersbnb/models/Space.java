@@ -55,31 +55,31 @@ public class Space {
         return availableFrom;
     }
 
-    public void setAvailable_from(LocalDate available_from) {
+    public void setAvailableFrom(LocalDate available_from) {
         this.availableFrom = available_from;
     }
 
-    public Double getPrice_per_night() {
+    public Double getPricePerNight() {
         return pricePerNight;
     }
 
-    public void setPrice_per_night(Double price_per_night) {
+    public void setPricePerNight(Double price_per_night) {
         this.pricePerNight = price_per_night;
     }
 
-    public LocalDate getAvailable_to() {
+    public LocalDate getAvailableTo() {
         return availableTo;
     }
 
-    public void setAvailable_to(LocalDate available_to) {
-        this.availableTo = available_to;
+    public void setAvailableTo(LocalDate availableTo) {
+        this.availableTo = availableTo;
     }
 
-    public Integer getOwner_id() {
+    public Integer getOwnerId() {
         return ownerId;
     }
 
-    public void setOwner_id(Integer owner_id) {
-        this.ownerId = owner_id;
+    public void setOwnerId(Integer ownerId) {
+        this.ownerId = ownerId;
     }
 }
